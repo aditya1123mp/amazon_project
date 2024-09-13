@@ -124,3 +124,5 @@ fos.close()
 workbook.close()
 
 println('Product data has been successfully saved in Excel.')
+
+WebUI.delay(5)

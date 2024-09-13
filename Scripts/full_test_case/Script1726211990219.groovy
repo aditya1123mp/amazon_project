@@ -22,6 +22,7 @@ WebUI.callTestCase(findTestCase('test_case_to_access_data_for_soundbar'), [:], F
 WebUI.callTestCase(findTestCase('test_case_to_count_the_number_of_products_on_first_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('test_case_to_read_data_for_product'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('test_case_to_iterate_through_products_and_save_in_excel'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('test_case_for_price_sorting'), [:], FailureHandling.STOP_ON_FAILURE)
 
